@@ -1,42 +1,39 @@
 ﻿namespace Pratice1_2018_II.Domain.Models
 {
-    using System;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
 
-    public class Patient
+    public class Vehicle
     {
         [Key]
-        public int PatientId { get; set; }
+        public int VehicleId { get; set; }
 
         [Required]
         [StringLength(50)]
-        [Display(Name = "First Name")]
-        public string FirstName { get; set; }
+        public string Brand { get; set; }
 
         [Required]
-        [StringLength(50)]
-        [Display(Name = "Last Name")]
-        public string LastName { get; set; }
-
-        [StringLength(100)]
-        public string Address { get; set; }
-
         [StringLength(20)]
-        public string Phone { get; set; }
+        public string Type { get; set; }
 
-        [Display(Name = "Patient Since")]
-        public DateTime PatientSince { get; set; }
+        [Required]
+        [StringLength(50)]
+        public string Owner { get; set; }
+
+        public int Model { get; set; }
+
+        public int Mileage { get; set; }
+
+        public decimal Price { get; set; }
 
         [DataType(DataType.MultilineText)]
-        [Display(Name = "Treatment Description")]
-        public string TreatmentDescription { get; set; }
+        public string Specifications { get; set; }
 
         [Display(Name = "Image")]
         public string ImagePath { get; set; }
 
-        [Display(Name = "Has Allergies?")]
-        public bool HasAllergies { get; set; }
+        [Display(Name = "Is Negotiable?")]
+        public bool IsNegotiable { get; set; }
 
         [NotMapped]
         public byte[] ImageArray { get; set; }

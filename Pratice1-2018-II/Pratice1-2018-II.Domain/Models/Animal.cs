@@ -25,7 +25,7 @@
         [Display(Name = "Image")]
         public string ImagePath { get; set; }
 
-        [Display(Name = "Is Way To Extintion")]
+        [Display(Name = "Is Way To Extintion?")]
         public bool IsWayToExtintion { get; set; }
 
         [NotMapped]
@@ -42,7 +42,6 @@
 
                 return $"https://pratice1-2018-iiapi.azurewebsites.net/{this.ImagePath.Substring(1)}";
             }
-
         }
     }
 }

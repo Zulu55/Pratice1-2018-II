@@ -13,5 +13,9 @@
         public DbSet<Census> Census { get; set; }
 
         public DbSet<Patient> Patients { get; set; }
+
+        public DbSet<Vehicle> Vehicles { get; set; }
+
+        public DbSet<Baby> Babies { get; set; }
     }
 }

@@ -49,9 +49,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Animal.cs" />
+    <Compile Include="Models\Baby.cs" />
     <Compile Include="Models\Census.cs" />
     <Compile Include="Models\DataContext.cs" />
     <Compile Include="Models\Patient.cs" />
+    <Compile Include="Models\Vehicle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

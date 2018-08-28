@@ -18,13 +18,13 @@
 
         public int Stratum { get; set; }
 
-        [Display(Name = "Have Internet")]
+        [Display(Name = "Have Internet?")]
         public bool HaveInternet { get; set; }
 
-        [Display(Name = "Have Aqueduct ")]
+        [Display(Name = "Have Aqueduct?")]
         public bool HaveAqueduct { get; set; }
 
-        [Display(Name = "Have Electricity")]
+        [Display(Name = "Have Electricity?")]
         public bool HaveElectricity { get; set; }
     
         [DataType(DataType.MultilineText)]

@@ -196,10 +196,12 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AnimalsController.cs" />
+    <Compile Include="Controllers\BabiesController.cs" />
     <Compile Include="Controllers\CensusesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\PatientsController.cs" />
+    <Compile Include="Controllers\VehiclesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -286,6 +288,16 @@
     <Content Include="Views\Patients\Details.cshtml" />
     <Content Include="Views\Patients\Edit.cshtml" />
     <Content Include="Views\Patients\Index.cshtml" />
+    <Content Include="Views\Vehicles\Create.cshtml" />
+    <Content Include="Views\Vehicles\Delete.cshtml" />
+    <Content Include="Views\Vehicles\Details.cshtml" />
+    <Content Include="Views\Vehicles\Edit.cshtml" />
+    <Content Include="Views\Vehicles\Index.cshtml" />
+    <Content Include="Views\Babies\Create.cshtml" />
+    <Content Include="Views\Babies\Delete.cshtml" />
+    <Content Include="Views\Babies\Details.cshtml" />
+    <Content Include="Views\Babies\Edit.cshtml" />
+    <Content Include="Views\Babies\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
